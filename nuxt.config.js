@@ -1,7 +1,8 @@
 export default {
   env: {
     apikey: "3a9583d786ee0da2",
-    apiurl: "http://localhost:3000",
+    // apiurl: "http://localhost:3000",
+    apiurl: "https://kantan-izakaya-search.netlify.app",
   },
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
