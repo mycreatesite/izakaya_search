@@ -2,7 +2,7 @@ export default {
   env: {
     apikey: "3a9583d786ee0da2",
     // apiurl: "http://localhost:3000",
-    apiurl: "https://kantan-izakaya-search.netlify.app",
+    apiurl: "http://webservice.recruit.co.jp/hotpepper",
   },
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
@@ -45,15 +45,15 @@ export default {
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  axios: {
-    proxy: true,
-  },
-  proxy: {
-    "/api": {
-      target: "http://webservice.recruit.co.jp/hotpepper",
-      pathRewrite: { "^/api": "" },
-    },
-  },
+  // axios: {
+  //   proxy: true,
+  // },
+  // proxy: {
+  //   "/api": {
+  //     target: "http://webservice.recruit.co.jp/hotpepper",
+  //     pathRewrite: { "^/api": "" },
+  //   },
+  // },
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
