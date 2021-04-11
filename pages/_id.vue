@@ -21,6 +21,7 @@ export default Vue.extend({
   async mounted() {
     try {
       const { data } = await this.$axios.get(
+        // `${process.env.apiurl}/api/gourmet/v1/`,
         `${process.env.apiurl}/gourmet/v1/`,
         {
           params: {

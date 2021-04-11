@@ -2,7 +2,7 @@ export default {
   env: {
     apikey: "3a9583d786ee0da2",
     // apiurl: "http://localhost:3000",
-    apiurl: "http://webservice.recruit.co.jp/hotpepper",
+    apiurl: "https://webservice.recruit.co.jp/hotpepper",
   },
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,

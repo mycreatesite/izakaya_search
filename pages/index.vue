@@ -33,6 +33,7 @@ export default Vue.extend({
     try {
       const pos: any = await getCurrentPos()
       const { data } = await this.$axios.get(
+        // `${process.env.apiurl}/api/gourmet/v1/`,
         `${process.env.apiurl}/gourmet/v1/`,
         {
           params: {
